@@ -12,14 +12,14 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/Image_Coal_middle"
         android:layout_width="253dp"
         android:layout_height="317dp"
         android:layout_centerInParent="true"
         app:srcCompat="@drawable/coal" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/ImageCoalBottom"
         android:layout_width="88dp"
         android:layout_height="135dp"
         android:layout_alignParentLeft="false"
@@ -27,6 +27,19 @@
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         app:srcCompat="@drawable/coal" />
+
+    <TextView
+        android:id="@+id/textHi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="50dp"
+        android:text="@string/greetings"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/textView"
@@ -39,10 +52,10 @@
         android:textStyle="bold|italic" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/ImageCoalTop"
         android:layout_width="91dp"
         android:layout_height="91dp"
-        android:layout_alignTop="@id/imageView3"
+        android:layout_alignTop="@id/ImageCoalBottom"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="false"
         android:layout_centerHorizontal="true"
